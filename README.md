@@ -1,101 +1,184 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-## Title
+<a name="readme-top"></a>
 
-Image Gallery
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Description 
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-A responsive web page that showcases a collection of images. It features a scrollable gallery with navigation buttons to navigate through the images. The gallery layout is designed using CSS grid, providing a clean and organized display. The images have a grayscale effect by default and transform to full color and slightly larger size on hover. Users can scroll horizontally using the mouse wheel or click the back and next buttons to navigate through the images.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/JoaoFranco03/photography-portfolio">
+    <img src="dist/assets/Logo.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-## Authors
+  <h3 align="center">Photography Portfolio</h3>
 
-- [jagathishwaran](https://www.github.com/jagathishwaran) 
-
+  <p align="center">
+    A Website created using Tailwind CSS, HTML, CSS <br /> and JavaScript that can be used as a Photography Portfolio.
+    <br />
+    <br />
+    <a href="https://photography-portfolio-joaofranco03.netlify.app/">View Demo</a>
+    <br />
+    <br />
     
-## Getting Started
+  </p>
+</div>
 
-   1. Download the source code:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#built-with">Built With</a>
+      <ul>
+        <li><a href="#html-badge">HTML</a></li>
+        <li><a href="#css-badge">CSS</a></li>
+        <li><a href="#js-badge">JavaScript</a></li>
+        <li><a href="#tailwind-badge">Tailwind CSS</a></li>
+      </ul>
+    </li>
+    <li><a href="#quick-start">Quick Start</a></li>
+    <li><a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-    --Clone or download the repository to your local machine.
+<!-- ABOUT THE PROJECT -->
 
-   2. Open the project:
+# 📋 About The Project <a name="about-the-project"></a>
 
-    --Use your preferred code editor to open the downloaded project files.
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JoaoFranco03/photography-portfolio)
 
-   3. Customize the code:
+This project is a web-based portfolio that beautifully showcases the photography work of Sophia Williams, a fictional photographer. The portfolio was skillfully built using a combination of powerful front-end technologies, including Tailwind CSS, CSS, HTML, and JavaScript.
 
-    --Modify the HTML, CSS, and JavaScript files to match your desired design and requirements.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    --Replace the image files in the images folder with your own images or update the file paths accordingly.
+## 🛠️ Built With <a name="built-with"></a>
 
-    --Customize the background color, font styles, or any other CSS properties as per your preference.
+- [![HTML][html-badge]][html-url]
+- [![CSS][css-badge]][css-url]
+- [![JavaScript][js-badge]][js-url]
+- [![Tailwind][tailwind-badge]][tailwind-url]
 
-   4. Test the functionality:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    --Open the HTML file in a web browser to see the image gallery in action.
+## 🚀 Quick Start <a name="quick-start"></a>
 
-    --Verify that the images are displayed correctly and the gallery layout meets your expectations.
+Create your own page with one click on [Netlify](https://app.netlify.com/signup):
 
-    --Test the navigation by scrolling horizontally using the mouse wheel or clicking the back and next buttons.
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/JoaoFranco03/photography-portfolio)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-   5. Deploy the web page:
+## 🎯 Getting Started <a name="getting-started"></a>
 
-    --Upload the modified code to your web hosting or server.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-   6. Explore customization options:
+### 🏗️ Installation <a name="installation"></a>
 
-    --Experiment with different images to showcase your own collection.
+1. Clone the repo
 
-    --Customize the gallery layout, grid dimensions, or spacing to suit your visual preferences.
+```sh
+ git clone https://github.com/JoaoFranco03/photography-portfolio/.git
+```
 
-    --Adjust the hover effects, such as grayscale to full color or image scaling, to create a unique user experience.
+2.  Run the following command:
 
-   7. Enjoy the image gallery:
+```sh
+ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+3.  Run the Project in a Server
 
-    --View your website or web page with the personalized image gallery.
+4.  Change it with your own photos, about me and contact info.
 
-    --Explore the images with smooth navigation and interactive hover effects.
+5.  Publish it using your preferred hosting platform.
 
-    --Make it your own by customizing the images, background, and styling to match your desired aesthetic.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Note: The JavaScript code can be further customized to add additional functionality or interactions. Feel free to tailor the code to meet your specific needs or integrate it into your existing projects.
+<!-- Ko-fi -->
 
+## ☕ Support Me on Ko-fi
 
-## Features
+If you find this project useful, consider supporting me on Ko-fi. Thanks for checking it out!  
 
+<a href="https://ko-fi.com/joaofranco03" target="_blank">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" style="height:40px;">
+</a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-   1. Responsive image gallery.
+## 📜 License <a name="license"></a>
 
-   2. Scrollable gallery with smooth navigation.
+Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
-   3. Grayscale effect on images, full color on hover.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-   4. CSS grid layout for organized display.
+<!-- CONTACT -->
 
-   5. Horizontal scrolling using mouse wheel.
+## 📧 Contact <a name="contact"></a>
 
-   6. Back and next buttons for image navigation.
+João Franco - https://www.linkedin.com/in/joão-franco-452161195/
 
-   7. Easy customization of images and styling.
+Project Link: [https://github.com/JoaoFranco03/photography-portfolio/](https://github.com/JoaoFranco03/photography-portfolio/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGMENTS -->
 
+## 🌟 Acknowledgments <a name="acknowledgments"></a>
 
-## Contributing
+- [FancyBox](https://fancyapps.com/fancybox/)
+- [Unsplash](https://unsplash.com/)
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation)
 
-Contributions are always welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you have any suggestions, improvements, or bug fixes, feel free to submit a pull request. Please ensure that your contributions align with the overall design and goals of the website. 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-
-## 🔗 Links
-
-For any questions or inquiries, please feel free to reach out. 
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jagathishwaran-m-172928231)
-
-
-Thank you for visiting the page!
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[tailwind-badge]: https://img.shields.io/badge/Tailwind_CSS-62BAF3?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-url]: https://tailwindcss.com
+[html-badge]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[css-badge]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[js-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[license-url]: https://github.com/JoaoFranco03/photography-portfolio/blob/main/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/joão-franco-452161195/
+[product-screenshot]: dist/assets/mockup.png
