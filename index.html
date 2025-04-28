@@ -25,6 +25,12 @@
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <!-- End - Fancybox Scripts -->
+  
+  <!-- Masonry Layout -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <!-- End Masonry Layout -->
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -51,7 +57,7 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="index.html" class="text-2xl font-signika font-bold">DUONGFOTO</a>
+          <a href="/" class="text-2xl font-signika font-bold">DUONGFOTO</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -76,31 +82,31 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="dist/prewedding.html" class="font-signika text-2xl tap-highlight-transparent">PREWEDDING
+              <a href="dist/prewedding" class="font-signika text-2xl tap-highlight-transparent">PREWEDDING
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/aodai.html" class="font-signika text-2xl tap-highlight-transparent">AO DAI
+              <a href="dist/aodai" class="font-signika text-2xl tap-highlight-transparent">AO DAI
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/portrait.html" class="font-signika text-2xl tap-highlight-transparent">PORTRAIT
+              <a href="dist/portrait" class="font-signika text-2xl tap-highlight-transparent">PORTRAIT
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/couple.html" class="font-signika text-2xl tap-highlight-transparent">COUPLE
+              <a href="dist/couple" class="font-signika text-2xl tap-highlight-transparent">COUPLE
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/about_me.html" class="font-signika text-2xl tap-highlight-transparent">ABOUT ME
+              <a href="dist/about_me" class="font-signika text-2xl tap-highlight-transparent">ABOUT ME
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
@@ -117,166 +123,11 @@
     
     <section class="text-neutral-700">
       <div class="container w-full">
-        <div class="flex flex-wrap w-full">
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/highlight/img_1.JPG"
-                  data-fancybox="gallery">
-                  <img alt="Highlight photo 1"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="dist/assets/highlight/img_1.JPG" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/highlight/img_2.JPG"
-                  data-fancybox="gallery">
-                  <img alt="Highlight photo 2"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="dist/assets/highlight/img_2.JPG" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/highlight/img_3.JPG"
-                  data-fancybox="gallery">
-                  <img alt="Highlight photo 3"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="dist/assets/highlight/img_3.JPG" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/prewedding/img_1.JPG" 
-                   data-fancybox="prewedding-gallery">
-                  <img src="dist/assets/prewedding/img_1.JPG" 
-                       alt="Prewedding photo 1" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/prewedding/img_2.JPG" 
-                   data-fancybox="prewedding-gallery">
-                  <img src="dist/assets/prewedding/img_2.JPG" 
-                       alt="Prewedding photo 2" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/prewedding/img_3.JPG" 
-                   data-fancybox="prewedding-gallery">
-                  <img src="dist/assets/prewedding/img_3.JPG" 
-                       alt="Prewedding photo 3" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/aodai/img_1.JPG" 
-                   data-fancybox="aodai-gallery">
-                  <img src="dist/assets/aodai/img_1.JPG" 
-                       alt="Áo dài photo 1" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/aodai/img_2.JPG" 
-                   data-fancybox="aodai-gallery">
-                  <img src="dist/assets/aodai/img_2.JPG" 
-                       alt="Áo dài photo 2" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/aodai/img_3.JPG" 
-                   data-fancybox="aodai-gallery">
-                  <img src="dist/assets/aodai/img_3.JPG" 
-                       alt="Áo dài photo 3" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/portrait/img_1.JPG" 
-                   data-fancybox="portrait-gallery">
-                  <img src="dist/assets/portrait/img_1.JPG" 
-                       alt="Portrait photo 1" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/portrait/img_2.JPG" 
-                   data-fancybox="portrait-gallery">
-                  <img src="dist/assets/portrait/img_2.JPG" 
-                       alt="Portrait photo 2" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/portrait/img_3.JPG" 
-                   data-fancybox="portrait-gallery">
-                  <img src="dist/assets/portrait/img_3.JPG" 
-                       alt="Portrait photo 3" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/couple/img_1.JPG" 
-                   data-fancybox="couple-gallery">
-                  <img src="dist/assets/couple/img_1.JPG" 
-                       alt="Couple photo 1" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/couple/img_2.JPG" 
-                   data-fancybox="couple-gallery">
-                  <img src="dist/assets/couple/img_2.JPG" 
-                       alt="Couple photo 2" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="dist/assets/couple/img_3.JPG" 
-                   data-fancybox="couple-gallery">
-                  <img src="dist/assets/couple/img_3.JPG" 
-                       alt="Couple photo 3" 
-                       class="w-full h-80 object-cover opacity-0 animate-fade-in transition duration-500 transform hover:scale-110">
-                </a>
-              </div>
-            </div>
+        <!-- Thay thế gallery tĩnh bằng div động -->
+        <div id="highlight-gallery">
+          <!-- Nội dung sẽ được tạo động bởi JavaScript -->
+          <div class="flex justify-center items-center py-10">
+            <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
           </div>
         </div>
       </div>
@@ -331,6 +182,8 @@
   </script>
   <script src="dist/fade_in.js"></script>
   <script src="dist/menu.js"></script>
+  <!-- Thêm script mới cho gallery -->
+  <script src="highlight_gallery.js"></script>
 </body>
 
 </html>
