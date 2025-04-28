@@ -23,6 +23,12 @@
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <!-- End - Fancybox Scripts -->
+  
+  <!-- Masonry Layout -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <!-- End Masonry Layout -->
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -68,6 +74,47 @@
     .minimalist-image-container {
       overflow: hidden;
       background-color: #f9fafb;
+    }
+    
+    /* Masonry grid style */
+    .grid-wrapper {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 8px;
+    }
+    
+    .grid-item {
+      width: 100%;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    
+    .grid-item--width2 {
+      grid-column: span 2;
+    }
+    
+    .grid-item--height2 img {
+      height: 450px !important;
+    }
+    
+    @media (max-width: 1024px) {
+      .grid-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .grid-item--width2 {
+        grid-column: span 2;
+      }
+    }
+    
+    @media (max-width: 640px) {
+      .grid-wrapper {
+        grid-template-columns: 1fr;
+      }
+      .grid-item--width2 {
+        grid-column: span 1;
+      }
     }
   </style>
 </head>
@@ -250,8 +297,8 @@
       // Hàm hiển thị chi tiết project
       function displayProjectDetails(project) {
         // Tạo HTML cho chi tiết project
-        const projectHTML = `
-          <div class="max-w-4xl mx-auto">
+        let projectHTML = `
+          <div class="max-w-6xl mx-auto">
             <h1 class="text-4xl font-bold mb-2">${project.title}</h1>
             <div class="flex items-center text-gray-500 text-sm mb-6">
               <span class="mr-3">${project.date}</span>
@@ -259,29 +306,38 @@
             </div>
             <p class="text-gray-700 mb-10 text-lg max-w-3xl">${project.description}</p>
             
-            <div class="flex flex-col w-full space-y-8">
-              ${project.images.map((image, index) => {
-                // Chỉ hiển thị chú thích nếu alt text tồn tại và không trống
-                const captionHtml = image.alt && image.alt.trim() !== '' ? 
-                  `<div class="py-2">
-                    <p class="text-gray-600 text-sm">${image.alt}</p>
-                  </div>` : '';
-                
-                return `
-                  <div class="w-full">
-                    <div class="overflow-hidden w-full">
-                      <a href="${image.src}" data-fancybox="gallery" data-caption="${image.alt || ''}">
-                        <img 
-                          src="${image.src}" 
-                          alt="${image.alt || ''}" 
-                          class="w-full object-contain opacity-0 animate-fade-in transition duration-500 transform hover:scale-105"
-                        >
-                      </a>
-                    </div>
-                    ${captionHtml}
-                  </div>
-                `;
-              }).join('')}
+            <div class="grid-wrapper">
+        `;
+        
+        // Tạo grid gallery kiểu Masonry
+        project.images.forEach((image, index) => {
+          // Tạo kích thước ngẫu nhiên cho một số ảnh để tạo layout động hơn
+          let extraClasses = '';
+          // 20% ảnh sẽ có kích thước lớn gấp đôi
+          if (index % 5 === 0) {
+            extraClasses += ' grid-item--width2';
+          }
+          // 15% ảnh sẽ có chiều cao gấp đôi
+          if (index % 7 === 3) {
+            extraClasses += ' grid-item--height2';
+          }
+          
+          projectHTML += `
+            <div class="grid-item${extraClasses}">
+              <div class="overflow-hidden h-full w-full">
+                <a href="${image.src}" data-fancybox="gallery" data-caption="${image.alt || ''}">
+                  <img 
+                    src="${image.src}" 
+                    alt="${image.alt || ''}" 
+                    class="w-full h-full object-cover opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                  >
+                </a>
+              </div>
+            </div>
+          `;
+        });
+        
+        projectHTML += `
             </div>
           </div>
         `;
@@ -291,25 +347,43 @@
         // Thiết lập tiêu đề trang
         document.title = `DUONGFOTO - ${project.title}`;
         
-        // Khởi tạo Fancybox
-        Fancybox.bind("[data-fancybox]", {
-          Image: {
-            fit: "contain",
-            Panzoom: {
-              maxScale: 2
-            }
-          }
-        });
+        // Khởi tạo Masonry layout
+        const galleryWrapper = document.querySelector('.grid-wrapper');
         
-        // Áp dụng hiệu ứng fade-in
-        const fadeElements = document.querySelectorAll('.animate-fade-in');
-        setTimeout(() => {
-          fadeElements.forEach((element, index) => {
+        // Chờ tất cả hình ảnh tải xong và áp dụng Masonry
+        imagesLoaded(galleryWrapper, function() {
+          // Thử sử dụng CSS Grid thay vì Masonry
+          try {
+            // Vẫn khởi tạo Masonry nếu có thể, nhưng CSS Grid sẽ là backup
+            new Masonry(galleryWrapper, {
+              itemSelector: '.grid-item',
+              columnWidth: '.grid-item:not(.grid-item--width2)',
+              percentPosition: true,
+              gutter: 8
+            });
+          } catch (error) {
+            console.log('Falling back to CSS Grid layout');
+            // Đã có CSS Grid làm backup trong trường hợp Masonry thất bại
+          }
+          
+          // Khởi tạo lại Fancybox
+          Fancybox.bind("[data-fancybox]", {
+            Image: {
+              fit: "contain",
+              Panzoom: {
+                maxScale: 2
+              }
+            }
+          });
+          
+          // Kích hoạt animation fade-in cho các hình ảnh
+          const fadeInElements = document.querySelectorAll('.animate-fade-in');
+          fadeInElements.forEach((element, index) => {
             setTimeout(() => {
               element.classList.remove('opacity-0');
-            }, 100 * index);
+            }, index * 50); // Tạo hiệu ứng fade in tuần tự
           });
-        }, 100);
+        });
       }
       
       // Thực hiện tải dữ liệu project

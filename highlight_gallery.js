@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const galleryContainer = document.getElementById('highlight-gallery');
   
-  const images = [
+  const imageFiles = [
     'img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_5.jpg', 'img_6.jpg', 
     'img_7.jpg', 'img_8.jpg', 'img_9.jpg', 'img_10.jpg', 'img_12.jpg',
     'img_13.jpg', 'img_22.jpg', 'img_23.jpg', 'img_24.jpg', 'img_25.jpg',
@@ -13,108 +13,120 @@ document.addEventListener('DOMContentLoaded', function() {
   // Xóa nội dung hiện tại của gallery container
   galleryContainer.innerHTML = '';
   
-  // Tạo layout cho gallery với Masonry
-  const galleryWrapper = document.createElement('div');
-  galleryWrapper.className = 'grid-wrapper';
+  // Tạo container cho gallery
+  const galleryHtml = `
+    <div class="gallery-grid">
+      ${imageFiles.map((image, index) => {
+        const imagePath = `./dist/assets/highlights/${image}`;
+        // Áp dụng lớp đặc biệt cho một số ảnh
+        let extraClass = '';
+        if (index % 5 === 0) extraClass = 'gallery-item-wide';
+        if (index % 7 === 3) extraClass = 'gallery-item-tall';
+        
+        return `
+          <div class="gallery-item ${extraClass}">
+            <a href="${imagePath}" data-fancybox="gallery">
+              <img src="${imagePath}" alt="Highlight photo - ${image}" class="gallery-img">
+            </a>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
   
-  // Thêm từng ảnh vào gallery
-  images.forEach((image, index) => {
-    const imagePath = `dist/assets/highlights/${image}`;
-    
-    // Tạo container cho mỗi ảnh
-    const itemElement = document.createElement('div');
-    itemElement.className = 'grid-item';
-    
-    // Tạo kích thước ngẫu nhiên cho một số ảnh để tạo layout động hơn
-    // 20% ảnh sẽ có kích thước lớn gấp đôi
-    if (index % 5 === 0) {
-      itemElement.className += ' grid-item--width2';
-    }
-    // 15% ảnh sẽ có chiều cao gấp đôi
-    if (index % 7 === 3) {
-      itemElement.className += ' grid-item--height2';
-    }
-    
-    // Tạo container overflow cho hiệu ứng hover
-    const overflowContainer = document.createElement('div');
-    overflowContainer.className = 'overflow-hidden h-full w-full';
-    
-    // Tạo link fancybox
-    const link = document.createElement('a');
-    link.href = imagePath;
-    link.setAttribute('data-fancybox', 'gallery');
-    
-    // Tạo thẻ img
-    const img = document.createElement('img');
-    img.alt = `Highlight photo - ${image}`;
-    img.className = 'w-full h-full object-cover opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110';
-    img.src = imagePath;
-    
-    // Xếp các element lại với nhau
-    link.appendChild(img);
-    overflowContainer.appendChild(link);
-    itemElement.appendChild(overflowContainer);
-    galleryWrapper.appendChild(itemElement);
-  });
+  // Thêm gallery vào container
+  galleryContainer.innerHTML = galleryHtml;
   
-  // Thêm vào DOM
-  galleryContainer.appendChild(galleryWrapper);
-  
-  // Thêm CSS cho Masonry layout
+  // Thêm CSS độc lập để đảm bảo hiển thị đúng
   const style = document.createElement('style');
   style.textContent = `
-    .grid-wrapper {
+    /* Gallery grid layout */
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
       width: 100%;
     }
-    .grid-item {
-      width: calc(33.333% - 8px);
+    
+    .gallery-item {
+      width: calc(33.333% - 6px);
       margin-bottom: 8px;
       border-radius: 4px;
       overflow: hidden;
+      height: 280px;
     }
-    .grid-item--width2 {
-      width: calc(66.666% - 8px);
+    
+    .gallery-item-wide {
+      width: calc(66.666% - 4px);
     }
-    .grid-item--height2 img {
-      height: 450px !important;
+    
+    .gallery-item-tall {
+      height: 420px;
     }
+    
+    .gallery-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      display: block;
+    }
+    
+    .gallery-img:hover {
+      transform: scale(1.05);
+    }
+    
     @media (max-width: 1024px) {
-      .grid-item {
-        width: calc(50% - 8px);
+      .gallery-item {
+        width: calc(50% - 4px);
       }
-      .grid-item--width2 {
-        width: calc(100% - 8px);
+      
+      .gallery-item-wide {
+        width: calc(100% - 0px);
       }
     }
+    
     @media (max-width: 640px) {
-      .grid-item {
+      .gallery-item {
         width: 100%;
+        height: 300px;
       }
-      .grid-item--width2 {
+      
+      .gallery-item-wide {
         width: 100%;
       }
     }
   `;
   document.head.appendChild(style);
-
-  // Khởi tạo Masonry sau khi tất cả ảnh đã được tải
-  imagesLoaded(galleryWrapper, function() {
-    new Masonry(galleryWrapper, {
-      itemSelector: '.grid-item',
-      columnWidth: '.grid-item',
-      percentPosition: true,
-      gutter: 8
-    });
+  
+  // Khởi tạo Fancybox
+  Fancybox.bind("[data-fancybox]", {
+    Image: {
+      zoom: true,
+    }
+  });
+  
+  // Tạo hiệu ứng fade-in cho hình ảnh 
+  const galleryImages = document.querySelectorAll('.gallery-img');
+  galleryImages.forEach((img, index) => {
+    // Bắt đầu với opacity 0
+    img.style.opacity = '0';
     
-    // Khởi tạo lại Fancybox sau khi thêm ảnh
-    Fancybox.bind("[data-fancybox]", {});
-    
-    // Kích hoạt animation fade-in cho các hình ảnh
-    const fadeInElements = document.querySelectorAll('.animate-fade-in');
-    fadeInElements.forEach((element, index) => {
+    // Khi hình ảnh tải xong
+    img.onload = function() {
       setTimeout(() => {
-        element.classList.remove('opacity-0');
-      }, index * 50); // Tạo hiệu ứng fade in tuần tự
-    });
+        // Hiệu ứng fade in
+        img.style.transition = 'opacity 0.5s ease';
+        img.style.opacity = '1';
+      }, index * 50); // Mỗi hình ảnh hiện sau hình trước 50ms
+    };
+    
+    // Trong trường hợp hình ảnh đã được cache
+    if (img.complete) {
+      setTimeout(() => {
+        img.style.transition = 'opacity 0.5s ease';
+        img.style.opacity = '1';
+      }, index * 50);
+    }
   });
 }); 
