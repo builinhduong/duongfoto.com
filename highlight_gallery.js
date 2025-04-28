@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const galleryContainer = document.getElementById('highlight-gallery');
   
-  // Danh sách hình ảnh (danh sách tĩnh này có thể được cập nhật thủ công khi thêm ảnh mới)
   const images = [
     'img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_5.jpg', 'img_6.jpg', 
     'img_7.jpg', 'img_8.jpg', 'img_9.jpg', 'img_10.jpg', 'img_12.jpg',
@@ -20,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Thêm từng ảnh vào gallery
   images.forEach((image, index) => {
-    const imagePath = `dist/assets/highlight/${image}`;
+    const imagePath = `dist/assets/highlights/${image}`;
     
     // Tạo container cho mỗi ảnh
     const itemElement = document.createElement('div');
