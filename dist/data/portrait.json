@@ -1,0 +1,68 @@
+[
+  {
+    "id": "portrait-2023-natural-light",
+    "title": "Ánh Sáng Tự Nhiên",
+    "date": "2023-11-05",
+    "location": "Sài Gòn",
+    "description": "Bộ ảnh chân dung sử dụng ánh sáng tự nhiên, tôn lên vẻ đẹp thuần khiết và tự nhiên.",
+    "thumbnail": "assets/portrait/img_1.JPG",
+    "images": [
+      {
+        "src": "assets/portrait/img_1.JPG",
+        "alt": "Chân dung với ánh sáng tự nhiên"
+      },
+      {
+        "src": "assets/portrait/img_2.JPG",
+        "alt": "Khoảnh khắc đẹp trong ánh nắng"
+      },
+      {
+        "src": "assets/portrait/img_3.JPG",
+        "alt": "Chân dung nghệ thuật"
+      }
+    ]
+  },
+  {
+    "id": "portrait-2023-studio",
+    "title": "Studio Portrait",
+    "date": "2023-09-18",
+    "location": "DUONGFOTO Studio",
+    "description": "Bộ ảnh chân dung studio với ánh sáng chuyên nghiệp, tạo nên những khoảnh khắc đẹp hoàn hảo.",
+    "thumbnail": "assets/portrait/img_2.JPG",
+    "images": [
+      {
+        "src": "assets/portrait/img_2.JPG",
+        "alt": "Chân dung studio"
+      },
+      {
+        "src": "assets/portrait/img_3.JPG",
+        "alt": "Chân dung tạo dáng"
+      },
+      {
+        "src": "assets/portrait/img_1.JPG",
+        "alt": "Chân dung với hình cách điệu"
+      }
+    ]
+  },
+  {
+    "id": "portrait-2023-fashion",
+    "title": "Fashion Portrait",
+    "date": "2023-08-10",
+    "location": "Sài Gòn",
+    "description": "Bộ ảnh chân dung thời trang, thể hiện cá tính và phong cách, kết hợp với trang phục hợp mốt.",
+    "thumbnail": "assets/portrait/img_3.JPG",
+    "images": [
+      {
+        "src": "assets/portrait/img_3.JPG",
+        "alt": "Chân dung thời trang"
+      },
+      {
+        "src": "assets/portrait/img_1.JPG",
+        "alt": "Phong cách đường phố"
+      },
+      {
+        "src": "assets/portrait/img_2.JPG",
+        "alt": "Chân dung thời trang hiện đại"
+      }
+    ]
+  }
+] 

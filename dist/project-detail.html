@@ -5,13 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DUONGFOTO - Couple Photography</title>
-  <meta name="description"
-    content="DUONGFOTO Couple Photography Gallery - Capturing intimate moments and genuine connections between couples.">
+  <title>DUONGFOTO - Chi tiết dự án</title>
+  <meta name="description" content="Chi tiết dự án chụp ảnh của DUONGFOTO - Xem các hình ảnh chất lượng cao và thông tin dự án">
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
   <link rel="stylesheet" href="output.css" />
-  <link rel="stylesheet" href="../styles.css" />
   <!-- Alpine.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <!-- Start - Fonts -->
@@ -42,30 +40,30 @@
     }
   </script>
   <style>
-    .project-card {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .project-card:hover {
-      transform: translateY(-5px);
-    }
-    
     /* Đảm bảo hình ảnh hiển thị đúng tỷ lệ và không bị cắt */
     .fancybox__content img, 
     .fancybox-image {
       object-fit: contain !important;
       background-color: #f3f4f6;
     }
+    
+    .project-image {
+      transition: transform 0.3s ease;
+    }
+    
+    .project-image:hover {
+      transform: scale(1.02);
+    }
   </style>
 </head>
 
-<body
-  class="bg-white h-screen text-black px-5 md:px-20 opacity-0 animate-fade-in transition duration-500">
+<body class="bg-white h-screen text-black px-5 md:px-20 opacity-0 animate-fade-in transition duration-500">
   <!-- Navbar -->
   <header class="flex w-full overflow-hidden pt-10 pb-1">
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="../index.html" class="text-2xl font-signika font-bold">DUONGFOTO</a>
+          <a href="index.html" class="text-2xl font-signika font-bold">DUONGFOTO</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -109,7 +107,8 @@
             </li>
             <li class="group transition duration-300">
               <a href="couple.html" class="font-signika text-2xl">COUPLE
-                <span class="hidden md:block h-0.5 bg-black"></span>
+                <span
+                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
@@ -126,25 +125,24 @@
   
   <!-- Content -->
   <div class="container mx-auto">
-    <h1 class="text-4xl pt-10 pb-8 font-bold">COUPLE</h1>
+    <div class="mb-6 flex items-center">
+      <a href="#" id="back-link" class="flex items-center text-gray-700 hover:text-black transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Quay lại
+      </a>
+    </div>
     
-    <!-- Couple Projects List -->
-    <section class="mb-16 text-neutral-700">
-      <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Projects will be loaded dynamically from JSON -->
-        <div class="text-center py-10">
-          <svg class="animate-spin h-8 w-8 text-black mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-          </svg>
-          <p class="mt-4">Đang tải dự án...</p>
-        </div>
+    <!-- Project Detail Container -->
+    <div id="project-detail" class="mb-16">
+      <div class="text-center py-10">
+        <svg class="animate-spin h-8 w-8 text-black mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <p class="mt-4">Đang tải dự án...</p>
       </div>
-    </section>
-    
-    <!-- Project Modals Container -->
-    <div id="modals-container">
-      <!-- Project modals will be loaded dynamically -->
     </div>
   </div>
   
@@ -192,43 +190,97 @@
   
   <script src="fade_in.js"></script>
   <script src="menu.js"></script>
-  <script src="projects.js"></script>
-  <!-- Initialize projects -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      console.log('DOM content loaded, initializing projects');
+      // Lấy thông tin project ID từ URL parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const projectId = urlParams.get('id');
+      const category = urlParams.get('category');
       
-      // Kiểm tra đường dẫn hiện tại
-      console.log('Current pathname:', window.location.pathname);
+      // Nếu không có projectId hoặc category, chuyển về trang chủ
+      if (!projectId || !category) {
+        window.location.href = 'index.html';
+        return;
+      }
       
-      // Thử load file JSON trực tiếp để kiểm tra
-      fetch('data/couple.json')
-        .then(response => {
-          console.log('Fetch response:', response);
+      // Thiết lập link quay lại
+      document.getElementById('back-link').href = `${category}.html`;
+      
+      // Hàm lấy dữ liệu project
+      async function fetchProjectDetails() {
+        try {
+          const response = await fetch(`data/${category}.json`);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          return response.json();
-        })
-        .then(data => {
-          console.log('JSON data loaded successfully:', data);
-        })
-        .catch(error => {
-          console.error('Error loading JSON:', error);
-        });
-      
-      // Gọi hàm initProjects
-      initProjects('couple');
-      
-      // Thêm cấu hình cho Fancybox để hiển thị hình ảnh đúng kích cỡ
-      Fancybox.bind("[data-fancybox]", {
-        Image: {
-          fit: "contain",
-          Panzoom: {
-            maxScale: 2
+          
+          const projects = await response.json();
+          const project = projects.find(p => p.id === projectId);
+          
+          if (!project) {
+            throw new Error('Project not found');
           }
+          
+          displayProjectDetails(project);
+        } catch (error) {
+          console.error('Error loading project details:', error);
+          document.getElementById('project-detail').innerHTML = `
+            <div class="text-center py-10">
+              <p class="text-xl text-red-600">Không tìm thấy dự án. <a href="${category}.html" class="underline">Quay lại</a></p>
+            </div>
+          `;
         }
-      });
+      }
+      
+      // Hàm hiển thị chi tiết project
+      function displayProjectDetails(project) {
+        // Tạo HTML cho chi tiết project
+        const projectHTML = `
+          <div class="max-w-6xl mx-auto">
+            <h1 class="text-4xl font-bold mb-2">${project.title}</h1>
+            <div class="flex items-center text-gray-500 text-sm mb-6">
+              <span class="mr-3">${project.date}</span>
+              <span>${project.location}</span>
+            </div>
+            <p class="text-gray-700 mb-10 text-lg max-w-3xl">${project.description}</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              ${project.images.map((image, index) => `
+                <div class="overflow-hidden rounded-lg shadow-md bg-gray-100">
+                  <a href="${image.src}" data-fancybox="gallery" data-caption="${image.alt}">
+                    <img 
+                      src="${image.src}" 
+                      alt="${image.alt}" 
+                      class="w-full h-80 object-contain project-image transition duration-500"
+                    >
+                  </a>
+                  <div class="p-3 bg-white">
+                    <p class="text-gray-600 text-sm">${image.alt}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+        
+        document.getElementById('project-detail').innerHTML = projectHTML;
+        
+        // Thiết lập tiêu đề trang
+        document.title = `DUONGFOTO - ${project.title}`;
+        
+        // Khởi tạo Fancybox
+        Fancybox.bind("[data-fancybox]", {
+          Image: {
+            fit: "contain",
+            Panzoom: {
+              maxScale: 2
+            }
+          }
+        });
+      }
+      
+      // Thực hiện tải dữ liệu project
+      fetchProjectDetails();
     });
   </script>
 </body>

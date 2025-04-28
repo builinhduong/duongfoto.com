@@ -1,0 +1,112 @@
+[
+  {
+    "id": "aodai-2023-vintage",
+    "title": "Áo Dài Vintage",
+    "date": "2023-11-20",
+    "location": "Sài Gòn",
+    "description": "Bộ ảnh áo dài với phong cách vintage, ghi lại vẻ đẹp truyền thống qua góc nhìn hiện đại.",
+    "thumbnail": "assets/aodai/img_1.JPG",
+    "images": [
+      {
+        "src": "assets/aodai/img_1.JPG",
+        "alt": "Áo dài với phong cách vintage"
+      },
+      {
+        "src": "assets/aodai/img_2.JPG",
+        "alt": "Nét đẹp truyền thống"
+      },
+      {
+        "src": "assets/aodai/img_3.JPG",
+        "alt": "Áo dài trong không gian cổ điển"
+      }
+    ]
+  },
+  {
+    "id": "aodai-2023-autumn",
+    "title": "Áo Dài Mùa Thu",
+    "date": "2023-10-05",
+    "location": "Hà Nội",
+    "description": "Bộ ảnh áo dài chụp giữa mùa thu Hà Nội, với lá vàng rơi tạo nên khung cảnh nên thơ.",
+    "thumbnail": "assets/aodai/img_2.JPG",
+    "images": [
+      {
+        "src": "assets/aodai/img_2.JPG",
+        "alt": "Áo dài giữa mùa thu"
+      },
+      {
+        "src": "assets/aodai/img_3.JPG",
+        "alt": "Lá vàng và áo dài"
+      },
+      {
+        "src": "assets/aodai/img_1.JPG",
+        "alt": "Vẻ đẹp Hà Nội mùa thu"
+      }
+    ]
+  },
+  {
+    "id": "aodai-2023-modern",
+    "title": "Áo Dài Hiện Đại",
+    "date": "2023-09-12",
+    "location": "Sài Gòn",
+    "description": "Bộ ảnh áo dài với thiết kế hiện đại, kết hợp giữa nét đẹp truyền thống và xu hướng thời trang mới.",
+    "thumbnail": "assets/aodai/img_3.JPG",
+    "images": [
+      {
+        "src": "assets/aodai/img_3.JPG",
+        "alt": "Áo dài thiết kế hiện đại"
+      },
+      {
+        "src": "assets/aodai/img_1.JPG",
+        "alt": "Phong cách áo dài mới"
+      },
+      {
+        "src": "assets/aodai/img_2.JPG",
+        "alt": "Áo dài cách tân"
+      }
+    ]
+  },
+  {
+    "id": "aodai-2023-lotus",
+    "title": "Sen Hồ Tây",
+    "date": "2023-07-10",
+    "location": "Hồ Tây, Hà Nội",
+    "description": "Bộ ảnh áo dài bên đầm sen Hồ Tây, nơi vẻ đẹp thuần khiết của người con gái Việt Nam hòa quyện cùng hương sen tinh khiết.",
+    "thumbnail": "./assets/aodai/img_2.JPG",
+    "images": [
+      {
+        "src": "./assets/aodai/img_2.JPG",
+        "alt": "Thiếu nữ bên đầm sen"
+      },
+      {
+        "src": "./assets/aodai/img_3.JPG",
+        "alt": "Duyên dáng bên hoa sen"
+      },
+      {
+        "src": "./assets/aodai/img_1.JPG",
+        "alt": "Áo dài trắng tinh khôi"
+      }
+    ]
+  },
+  {
+    "id": "aodai-2023-hue",
+    "title": "Cố Đô Huế",
+    "date": "2023-05-20",
+    "location": "Huế, Thừa Thiên Huế",
+    "description": "Bộ ảnh áo dài tại Cố đô Huế, nơi vẻ đẹp cổ kính của di sản văn hóa hòa quyện cùng nét duyên dáng của tà áo dài Việt Nam.",
+    "thumbnail": "./assets/aodai/img_3.JPG",
+    "images": [
+      {
+        "src": "./assets/aodai/img_3.JPG",
+        "alt": "Áo dài bên Đại Nội Huế"
+      },
+      {
+        "src": "./assets/aodai/img_1.JPG",
+        "alt": "Dạo bước trên cầu Trường Tiền"
+      },
+      {
+        "src": "./assets/aodai/img_2.JPG",
+        "alt": "Áo dài bên dòng sông Hương"
+      }
+    ]
+  }
+] 

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prewedding-2023-beach",
+    "title": "Bãi Biển Mũi Né 2023",
+    "date": "2023-10-15",
+    "location": "Mũi Né, Phan Thiết",
+    "description": "Bộ ảnh cưới đẹp ngất ngây với tông màu xanh của biển và bầu trời trong xanh tại Mũi Né.",
+    "thumbnail": "assets/prewedding/img_1.JPG",
+    "images": [
+      {
+        "src": "assets/prewedding/img_1.JPG",
+        "alt": "Cặp đôi trên bãi biển Mũi Né"
+      },
+      {
+        "src": "assets/prewedding/img_2.JPG",
+        "alt": "Khoảnh khắc lãng mạn bên bờ biển"
+      },
+      {
+        "src": "assets/prewedding/img_3.JPG",
+        "alt": "Hoàng hôn trên biển"
+      }
+    ]
+  },
+  {
+    "id": "prewedding-2023-dalat",
+    "title": "Đà Lạt Mộng Mơ",
+    "date": "2023-08-20",
+    "location": "Đà Lạt, Lâm Đồng",
+    "description": "Bộ ảnh cưới chụp tại thành phố ngàn hoa Đà Lạt, nơi tình yêu được thăng hoa trong không khí se lạnh và khung cảnh lãng mạn.",
+    "thumbnail": "assets/prewedding/img_4.JPG",
+    "images": [
+      {
+        "src": "assets/prewedding/img_4.JPG",
+        "alt": "Chụp ảnh tại đồi thông Đà Lạt"
+      },
+      {
+        "src": "assets/prewedding/img_1.JPG",
+        "alt": "Khoảnh khắc lãng mạn tại hồ Xuân Hương"
+      },
+      {
+        "src": "assets/prewedding/img_2.JPG",
+        "alt": "Cặp đôi giữa rừng thông"
+      }
+    ]
+  },
+  {
+    "id": "prewedding-2023-hoian",
+    "title": "Phố Cổ Hội An",
+    "date": "2023-06-12",
+    "location": "Hội An, Quảng Nam",
+    "description": "Bộ ảnh cưới được thực hiện tại phố cổ Hội An, nơi những con phố nhỏ rợp bóng đèn lồng tạo nên khung cảnh cổ kính và lãng mạn.",
+    "thumbnail": "assets/prewedding/img_2.JPG",
+    "images": [
+      {
+        "src": "assets/prewedding/img_2.JPG",
+        "alt": "Cặp đôi tại phố cổ Hội An"
+      },
+      {
+        "src": "assets/prewedding/img_3.JPG",
+        "alt": "Lãng mạn dưới ánh đèn lồng"
+      },
+      {
+        "src": "assets/prewedding/img_1.JPG",
+        "alt": "Chụp ảnh tại cầu Nhật Bản"
+      }
+    ]
+  }
+] 
