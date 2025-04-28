@@ -1,111 +1,120 @@
 [
   {
-    "id": "aodai-2023-vintage",
-    "title": "Áo Dài Vintage",
-    "date": "2023-11-20",
-    "location": "Sài Gòn",
-    "description": "Bộ ảnh áo dài với phong cách vintage, ghi lại vẻ đẹp truyền thống qua góc nhìn hiện đại.",
-    "thumbnail": "assets/aodai/img_1.JPG",
+    "id": "huynhnhu-aodai-2025",
+    "title": "Áo Dài và Huỳnh Như",
+    "date": "2025-01-11",
+    "location": "HCMC",
+    "description": "ghi lại vẻ đẹp truyền thống...",
+    "thumbnail": "assets/aodai/huynhnhu/img_7.JPG",
     "images": [
       {
-        "src": "assets/aodai/img_1.JPG",
-        "alt": "Áo dài với phong cách vintage"
+        "src": "assets/aodai/huynhnhu/img_1.JPG",
+        "alt": "Áo dài và Huỳnh Như"
       },
       {
-        "src": "assets/aodai/img_2.JPG",
-        "alt": "Nét đẹp truyền thống"
+        "src": "assets/aodai/huynhnhu/img_2.JPG"
       },
       {
-        "src": "assets/aodai/img_3.JPG",
-        "alt": "Áo dài trong không gian cổ điển"
-      }
-    ]
-  },
-  {
-    "id": "aodai-2023-autumn",
-    "title": "Áo Dài Mùa Thu",
-    "date": "2023-10-05",
-    "location": "Hà Nội",
-    "description": "Bộ ảnh áo dài chụp giữa mùa thu Hà Nội, với lá vàng rơi tạo nên khung cảnh nên thơ.",
-    "thumbnail": "assets/aodai/img_2.JPG",
-    "images": [
-      {
-        "src": "assets/aodai/img_2.JPG",
-        "alt": "Áo dài giữa mùa thu"
+        "src": "assets/aodai/huynhnhu/img_3.JPG"
       },
       {
-        "src": "assets/aodai/img_3.JPG",
-        "alt": "Lá vàng và áo dài"
+        "src": "assets/aodai/huynhnhu/img_4.JPG"
       },
       {
-        "src": "assets/aodai/img_1.JPG",
-        "alt": "Vẻ đẹp Hà Nội mùa thu"
-      }
-    ]
-  },
-  {
-    "id": "aodai-2023-modern",
-    "title": "Áo Dài Hiện Đại",
-    "date": "2023-09-12",
-    "location": "Sài Gòn",
-    "description": "Bộ ảnh áo dài với thiết kế hiện đại, kết hợp giữa nét đẹp truyền thống và xu hướng thời trang mới.",
-    "thumbnail": "assets/aodai/img_3.JPG",
-    "images": [
-      {
-        "src": "assets/aodai/img_3.JPG",
-        "alt": "Áo dài thiết kế hiện đại"
+        "src": "assets/aodai/huynhnhu/img_5.JPG"
       },
       {
-        "src": "assets/aodai/img_1.JPG",
-        "alt": "Phong cách áo dài mới"
+        "src": "assets/aodai/huynhnhu/img_6.JPG"
       },
       {
-        "src": "assets/aodai/img_2.JPG",
-        "alt": "Áo dài cách tân"
-      }
-    ]
-  },
-  {
-    "id": "aodai-2023-lotus",
-    "title": "Sen Hồ Tây",
-    "date": "2023-07-10",
-    "location": "Hồ Tây, Hà Nội",
-    "description": "Bộ ảnh áo dài bên đầm sen Hồ Tây, nơi vẻ đẹp thuần khiết của người con gái Việt Nam hòa quyện cùng hương sen tinh khiết.",
-    "thumbnail": "./assets/aodai/img_2.JPG",
-    "images": [
-      {
-        "src": "./assets/aodai/img_2.JPG",
-        "alt": "Thiếu nữ bên đầm sen"
+        "src": "assets/aodai/huynhnhu/img_7.JPG"
       },
       {
-        "src": "./assets/aodai/img_3.JPG",
-        "alt": "Duyên dáng bên hoa sen"
+        "src": "assets/aodai/huynhnhu/img_8.JPG"
       },
       {
-        "src": "./assets/aodai/img_1.JPG",
-        "alt": "Áo dài trắng tinh khôi"
-      }
-    ]
-  },
-  {
-    "id": "aodai-2023-hue",
-    "title": "Cố Đô Huế",
-    "date": "2023-05-20",
-    "location": "Huế, Thừa Thiên Huế",
-    "description": "Bộ ảnh áo dài tại Cố đô Huế, nơi vẻ đẹp cổ kính của di sản văn hóa hòa quyện cùng nét duyên dáng của tà áo dài Việt Nam.",
-    "thumbnail": "./assets/aodai/img_3.JPG",
-    "images": [
-      {
-        "src": "./assets/aodai/img_3.JPG",
-        "alt": "Áo dài bên Đại Nội Huế"
+        "src": "assets/aodai/huynhnhu/img_9.JPG"
       },
       {
-        "src": "./assets/aodai/img_1.JPG",
-        "alt": "Dạo bước trên cầu Trường Tiền"
+        "src": "assets/aodai/huynhnhu/img_10.JPG"
       },
       {
-        "src": "./assets/aodai/img_2.JPG",
-        "alt": "Áo dài bên dòng sông Hương"
+        "src": "assets/aodai/huynhnhu/img_11.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_12.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_13.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_14.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_15.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_16.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_17.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_18.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_19.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_20.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_21.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_22.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_23.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_24.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_25.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_26.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_27.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_28.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_29.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_30.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_31.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_32.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_33.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_34.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_35.JPG"
+      },
+      {
+        "src": "assets/aodai/huynhnhu/img_36.JPG"
       }
     ]
   }

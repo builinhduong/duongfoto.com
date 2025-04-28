@@ -22,22 +22,28 @@ async function fetchProjects(category) {
 
 // Create project card HTML
 function createProjectCard(project, category) {
+  // Xác định xem có hiển thị alt text hay không
+  const altTextElement = project.title ? 
+    `<p class="text-gray-700 mb-4">${project.description}</p>` : '';
+    
   return `
-    <div class="project-card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in" data-project-id="${project.id}">
-      <div class="overflow-hidden h-60">
-        <img 
-          src="${project.thumbnail}" 
-          alt="${project.title}" 
-          class="w-full h-full object-contain transition duration-500 transform hover:scale-110"
-        >
+    <div class="project-card opacity-0 animate-fade-in" data-project-id="${project.id}">
+      <div class="overflow-hidden w-full h-80">
+        <a href="project-detail.html?id=${project.id}&category=${category}">
+          <img 
+            src="${project.thumbnail}" 
+            alt="${project.title}" 
+            class="w-full h-full object-contain transition duration-500 transform hover:scale-105"
+          >
+        </a>
       </div>
-      <div class="p-4">
+      <div class="py-3">
         <h3 class="text-xl font-bold mb-1">${project.title}</h3>
         <div class="flex items-center text-gray-500 text-sm mb-2">
           <span class="mr-3">${project.date}</span>
           <span>${project.location}</span>
         </div>
-        <p class="text-gray-700 mb-4">${project.description}</p>
+        ${altTextElement}
         <a href="project-detail.html?id=${project.id}&category=${category}" class="text-black font-medium hover:underline">
           Xem chi tiết
         </a>

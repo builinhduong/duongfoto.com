@@ -1,67 +1,131 @@
 [
   {
-    "id": "couple-2023-beach",
-    "title": "Ngày Nắng Biển",
-    "date": "2023-12-11",
-    "location": "Vũng Tàu",
-    "description": "Bộ ảnh cặp đôi trên bờ biển, ghi lại khoảnh khắc lãng mạn dưới ánh nắng vàng.",
-    "thumbnail": "assets/couple/img_1.JPG",
+    "id": "metro-1-2025",
+    "title": "Film Metro Couple",
+    "date": "2025-01-11",
+    "location": "HCMC",
+    "description": "Metro film của cặp đôi",
+    "thumbnail": "assets/couple/metro_1/img_1.jpeg",
     "images": [
       {
-        "src": "assets/couple/img_1.JPG",
-        "alt": "Cặp đôi dạo chơi trên bãi biển"
+        "src": "assets/couple/metro_1/img_1.jpeg"
       },
       {
-        "src": "assets/couple/img_2.JPG",
-        "alt": "Khoảnh khắc ngọt ngào"
+        "src": "assets/couple/metro_1/img_2.jpeg"
       },
       {
-        "src": "assets/couple/img_3.JPG",
-        "alt": "Hoàng hôn trên biển"
-      }
-    ]
-  },
-  {
-    "id": "couple-2023-coffee",
-    "title": "Góc Cà Phê",
-    "date": "2023-10-15",
-    "location": "Sài Gòn",
-    "description": "Bộ ảnh cặp đôi tại quán cà phê vintage, không gian ấm cúng và lãng mạn.",
-    "thumbnail": "assets/couple/img_2.JPG",
-    "images": [
-      {
-        "src": "assets/couple/img_2.JPG",
-        "alt": "Trò chuyện tại quán cà phê"
+        "src": "assets/couple/metro_1/img_3.jpeg"
       },
       {
-        "src": "assets/couple/img_3.JPG",
-        "alt": "Khoảnh khắc thân mật"
+        "src": "assets/couple/metro_1/img_4.jpeg"
       },
       {
-        "src": "assets/couple/img_1.JPG",
-        "alt": "Góc cà phê ấm cúng"
-      }
-    ]
-  },
-  {
-    "id": "couple-2023-garden",
-    "title": "Vườn Yêu Thương",
-    "date": "2023-09-21",
-    "location": "Đà Lạt",
-    "description": "Bộ ảnh cặp đôi trong khu vườn hoa tại Đà Lạt, với không khí lãng mạn và trong lành.",
-    "thumbnail": "assets/couple/img_3.JPG",
-    "images": [
-      {
-        "src": "assets/couple/img_3.JPG",
-        "alt": "Dạo bước trong vườn hoa"
+        "src": "assets/couple/metro_1/img_5.jpeg"
       },
       {
-        "src": "assets/couple/img_1.JPG",
-        "alt": "Khoảnh khắc hạnh phúc"
+        "src": "assets/couple/metro_1/img_6.jpeg"
       },
       {
-        "src": "assets/couple/img_2.JPG",
-        "alt": "Nụ cười rạng rỡ"
+        "src": "assets/couple/metro_1/img_7.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_8.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_9.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_10.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_11.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_12.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_13.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_14.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_15.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_16.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_17.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_18.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_19.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_20.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_21.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_22.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_23.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_24.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_25.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_26.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_27.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_28.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_29.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_30.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_31.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_32.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_33.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_34.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_35.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_36.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_37.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_38.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_39.jpeg"
+      },
+      {
+        "src": "assets/couple/metro_1/img_40.jpeg"
       }
     ]
   }
