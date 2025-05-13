@@ -1,0 +1,37 @@
+{
+  "id": "abstract-series",
+  "title": "Abstract Series",
+  "year": "2025",
+  "coverImage": "/images/abstract-1.jpg",
+  "description": "A bold exploration of form, color, and texture through abstract photography. This collection challenges conventional perspectives and invites viewers to find their own meaning.",
+  "photos": [
+    {
+      "src": "/images/abstract-1.jpg",
+      "title": "Color Study #1",
+      "description": "An exploration of color relationships and emotional responses",
+      "span": "both"
+    },
+    {
+      "src": "/images/abstract-2.jpg",
+      "title": "Form and Void",
+      "description": "Examining the relationship between positive and negative space",
+      "span": "row"
+    },
+    {
+      "src": "/images/abstract-3.jpg",
+      "title": "Texture Exploration",
+      "description": "A detailed study of natural and artificial textures",
+      "span": "col"
+    },
+    {
+      "src": "/images/abstract-4.jpg",
+      "title": "Movement in Stillness",
+      "description": "Capturing the impression of motion through static elements"
+    },
+    {
+      "src": "/images/abstract-5.jpg",
+      "title": "Light Study",
+      "description": "Exploring how light interacts with different surfaces and materials"
+    }
+  ]
+} 

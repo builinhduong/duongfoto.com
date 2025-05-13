@@ -1,0 +1,37 @@
+{
+  "id": "red-ha-phuong-2025",
+  "title": "RED Ha Phuong 2025",
+  "year": "2025",
+  "coverImage": "/images/portrait-1.jpg",
+  "description": "A striking portrait series exploring the interplay of light, shadow, and emotion. This collection captures the essence of the subject through a bold red color palette.",
+  "photos": [
+    {
+      "src": "/images/portrait-1.jpg",
+      "title": "Main Portrait",
+      "description": "The signature portrait from the RED series, showcasing dramatic lighting and composition",
+      "span": "both"
+    },
+    {
+      "src": "/images/portrait-detail-1.jpg",
+      "title": "Detail Shot",
+      "description": "Close-up capturing the intricate details and textures"
+    },
+    {
+      "src": "/images/portrait-detail-2.jpg",
+      "title": "Artistic Angle",
+      "description": "An experimental perspective highlighting the subject's profile",
+      "span": "col"
+    },
+    {
+      "src": "/images/portrait-3.jpg",
+      "title": "Complementary Shot",
+      "description": "A supporting image that adds depth to the narrative",
+      "span": "row"
+    },
+    {
+      "src": "/images/portrait-4.jpg",
+      "title": "Expression Study",
+      "description": "Capturing the subtle nuances of human emotion"
+    }
+  ]
+} 

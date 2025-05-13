@@ -1,0 +1,58 @@
+import { notFound } from "next/navigation"
+import { ProjectFocusCards } from "@/components/project-focus-cards"
+import { OptimizedTextEffect } from "@/components/ui/optimized-text-effect"
+import { getCategoryById, getProjectsByCategory } from "@/lib/projects"
+
+interface CategoryPageProps {
+  params: {
+    categoryId: string
+  }
+}
+
+export default function CategoryPage({ params }: CategoryPageProps) {
+  const { categoryId } = params
+
+  const category = getCategoryById(categoryId)
+  if (!category) {
+    notFound()
+  }
+
+  const projects = getProjectsByCategory(categoryId)
+
+  // If no projects are found, display a message
+  if (projects.length === 0) {
+    return (
+      <main className="min-h-screen bg-[#f5f5f5] pt-12 pb-24">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <OptimizedTextEffect
+              text={category.title}
+              className="text-4xl font-bold tracking-tight"
+              staggerDelay={0.03}
+              duration={0.5}
+            />
+          </div>
+          <div className="text-center text-gray-500">
+            <p>No projects found in this category.</p>
+          </div>
+        </div>
+      </main>
+    )
+  }
+
+  return (
+    <main className="min-h-screen bg-[#f5f5f5] pt-12 pb-24">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <OptimizedTextEffect
+            text={category.title}
+            className="text-4xl font-bold tracking-tight"
+            staggerDelay={0.03}
+            duration={0.5}
+          />
+        </div>
+        <ProjectFocusCards projects={projects} category={categoryId} />
+      </div>
+    </main>
+  )
+}

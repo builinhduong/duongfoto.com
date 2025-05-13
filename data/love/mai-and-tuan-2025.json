@@ -1,0 +1,37 @@
+{
+  "id": "mai-and-tuan-2025",
+  "title": "Mai & Tuan 2025",
+  "year": "2025",
+  "coverImage": "/images/wedding-1.jpg",
+  "description": "A romantic celebration capturing the love story of Mai and Tuan. This collection highlights emotional moments and beautiful details from their special day.",
+  "photos": [
+    {
+      "src": "/images/wedding-1.jpg",
+      "title": "First Look",
+      "description": "The emotional moment when Mai and Tuan first saw each other on their wedding day",
+      "span": "both"
+    },
+    {
+      "src": "/images/wedding-detail-1.jpg",
+      "title": "Ring Detail",
+      "description": "An artistic close-up of the wedding rings symbolizing their eternal love",
+      "span": "row"
+    },
+    {
+      "src": "/images/wedding-2.jpg",
+      "title": "Ceremony Highlight",
+      "description": "A touching moment during the wedding ceremony",
+      "span": "col"
+    },
+    {
+      "src": "/images/wedding-3.jpg",
+      "title": "Celebration",
+      "description": "The joyful celebration with family and friends"
+    },
+    {
+      "src": "/images/wedding-4.jpg",
+      "title": "Golden Hour Portraits",
+      "description": "Romantic portraits captured during the magical golden hour"
+    }
+  ]
+} 

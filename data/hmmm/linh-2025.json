@@ -1,0 +1,56 @@
+{
+    "id": "linh-2025",
+    "title": "Linh 2025",
+    "year": "2025",
+    "coverImage": "/linh-2025/img1.jpg",
+    "description": "A romantic celebration capturing the love story of Mai and Tuan. This collection highlights emotional moments and beautiful details from their special day.",
+    "photos": [
+      {
+        "src": "/linh-2025/img1.jpg",
+        "span": "both"
+      },
+      {
+        "src": "/linh-2025/img2.jpg",
+        "span": "row"
+      },
+      {
+        "src": "/linh-2025/img3.jpg",
+        "span": "col"
+      },
+      {
+        "src": "/linh-2025/img4.jpg",
+        "span": "both"
+      },
+      {
+        "src": "/linh-2025/img5.jpg",
+        "span": "row"
+      },
+      {
+        "src": "/linh-2025/img6.jpg",
+        "span": "col"
+      },
+      {
+        "src": "/linh-2025/img7.jpg",
+        "span": "both"
+      },
+      {
+        "src": "/linh-2025/img8.jpg",
+        "span": "row"
+      },
+      {
+        "src": "/linh-2025/img9.jpg",
+        "span": "col"
+      },
+      {
+        "src": "/linh-2025/img10.jpg",
+        "span": "both"
+      },
+      {
+        "src": "/linh-2025/img11.jpg",
+        "span": "col"
+      },
+      {
+        "src": "/linh-2025/img12.jpg"
+      }
+    ]
+  } 

@@ -1,0 +1,1334 @@
+{
+  "categories": [
+    {
+      "id": "portrait",
+      "title": "PORTRAIT",
+      "projects": [
+        {
+          "id": "red-ha-phuong-2025",
+          "title": "RED Ha Phuong 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-1.jpg",
+          "description": "A striking portrait series exploring the interplay of light, shadow, and emotion. This collection captures the essence of the subject through a bold red color palette.",
+          "photos": [
+            {
+              "src": "/images/portrait-1.jpg",
+              "title": "Main Portrait",
+              "description": "The signature portrait from the RED series, showcasing dramatic lighting and composition",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-detail-1.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up capturing the intricate details and textures"
+            },
+            {
+              "src": "/images/portrait-detail-2.jpg",
+              "title": "Artistic Angle",
+              "description": "An experimental perspective highlighting the subject's profile",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-3.jpg",
+              "title": "Complementary Shot",
+              "description": "A supporting image that adds depth to the narrative",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-4.jpg",
+              "title": "Expression Study",
+              "description": "Capturing the subtle nuances of human emotion"
+            }
+          ]
+        },
+        {
+          "id": "ching-ph",
+          "title": "CHING PH",
+          "year": "2025",
+          "coverImage": "/images/portrait-2.jpg",
+          "description": "A minimalist portrait series focusing on clean lines and subtle expressions. This collection emphasizes the beauty of simplicity and understated elegance.",
+          "photos": [
+            {
+              "src": "/images/portrait-2.jpg",
+              "title": "Main Portrait",
+              "description": "The defining image of the CHING PH series, showcasing minimalist aesthetics",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-detail-3.jpg",
+              "title": "Detail Shot",
+              "description": "Exploring the fine details that make each subject unique",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-5.jpg",
+              "title": "Complementary Shot",
+              "description": "A supporting portrait that enhances the narrative",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-6.jpg",
+              "title": "Expression Study",
+              "description": "Capturing the subtle interplay of light and shadow on the face"
+            }
+          ]
+        },
+        {
+          "id": "lu-do-2025",
+          "title": "Lu Do 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-3.jpg",
+          "description": "An avant-garde portrait collection pushing the boundaries of conventional photography. This series experiments with unconventional angles and lighting techniques.",
+          "photos": [
+            {
+              "src": "/images/portrait-3.jpg",
+              "title": "Main Portrait",
+              "description": "The signature image from the Lu Do series, showcasing experimental techniques",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-detail-4.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up highlighting the intricate textures and patterns",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-1.jpg",
+              "title": "Complementary Shot",
+              "description": "A contrasting image that adds depth to the collection",
+              "span": "col"
+            }
+          ]
+        },
+        {
+          "id": "minh-2025",
+          "title": "Minh 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-4.jpg",
+          "description": "A contemporary portrait series exploring identity and self-expression. This collection uses natural lighting to create an authentic and intimate atmosphere.",
+          "photos": [
+            {
+              "src": "/images/portrait-4.jpg",
+              "title": "Main Portrait",
+              "description": "The defining image of the Minh series, capturing authentic emotion",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-5.jpg",
+              "title": "Secondary Portrait",
+              "description": "A complementary image that reveals another facet of the subject",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-6.jpg",
+              "title": "Expressive Moment",
+              "description": "Capturing a spontaneous moment of genuine emotion",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-1.jpg",
+              "title": "Detail Study",
+              "description": "Focusing on the subtle details that tell a deeper story"
+            }
+          ]
+        },
+        {
+          "id": "trang-2025",
+          "title": "Trang 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-5.jpg",
+          "description": "A delicate portrait series celebrating feminine strength and grace. This collection uses soft lighting and subtle tones to create an ethereal atmosphere.",
+          "photos": [
+            {
+              "src": "/images/portrait-5.jpg",
+              "title": "Main Portrait",
+              "description": "The signature image from the Trang series, embodying grace and strength",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-2.jpg",
+              "title": "Complementary Portrait",
+              "description": "A supporting image that adds dimension to the narrative",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-detail-2.jpg",
+              "title": "Detail Study",
+              "description": "Exploring the subtle nuances that define character",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-3.jpg",
+              "title": "Artistic Angle",
+              "description": "An experimental perspective that challenges conventional portraiture"
+            }
+          ]
+        },
+        {
+          "id": "hoang-2025",
+          "title": "Hoang 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-6.jpg",
+          "description": "A bold portrait series exploring masculinity and vulnerability. This collection uses dramatic lighting to create powerful visual narratives.",
+          "photos": [
+            {
+              "src": "/images/portrait-6.jpg",
+              "title": "Main Portrait",
+              "description": "The defining image of the Hoang series, showcasing strength and vulnerability",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-4.jpg",
+              "title": "Secondary Portrait",
+              "description": "A complementary image revealing another dimension of the subject",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-detail-4.jpg",
+              "title": "Detail Study",
+              "description": "Focusing on the subtle expressions that convey emotion",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-3.jpg",
+              "title": "Artistic Perspective",
+              "description": "An unconventional angle that challenges traditional portraiture"
+            }
+          ]
+        },
+        {
+          "id": "noir-series-2025",
+          "title": "Noir Series 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-1.jpg",
+          "description": "A dramatic black and white portrait collection inspired by film noir aesthetics. This series uses high contrast lighting to create moody, cinematic images.",
+          "photos": [
+            {
+              "src": "/images/portrait-1.jpg",
+              "title": "The Detective",
+              "description": "A moody portrait capturing the essence of noir cinema",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-2.jpg",
+              "title": "The Femme Fatale",
+              "description": "A mysterious portrait with dramatic shadows and highlights",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-3.jpg",
+              "title": "The Informant",
+              "description": "A tense portrait capturing a moment of revelation",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-4.jpg",
+              "title": "The Witness",
+              "description": "A contemplative portrait with subtle lighting nuances"
+            }
+          ]
+        },
+        {
+          "id": "ethereal-2025",
+          "title": "Ethereal 2025",
+          "year": "2025",
+          "coverImage": "/images/portrait-5.jpg",
+          "description": "A dreamlike portrait series exploring the boundaries between reality and fantasy. This collection uses soft focus techniques and ethereal lighting.",
+          "photos": [
+            {
+              "src": "/images/portrait-5.jpg",
+              "title": "Dreamscape",
+              "description": "A portrait that blurs the line between dreams and reality",
+              "span": "both"
+            },
+            {
+              "src": "/images/portrait-6.jpg",
+              "title": "Reverie",
+              "description": "A contemplative portrait with soft, diffused lighting",
+              "span": "row"
+            },
+            {
+              "src": "/images/portrait-detail-1.jpg",
+              "title": "Whisper",
+              "description": "A delicate portrait capturing a moment of introspection",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-2.jpg",
+              "title": "Ethereal Light",
+              "description": "A portrait exploring the interplay of light and shadow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedding",
+      "title": "WEDDING",
+      "projects": [
+        {
+          "id": "mai-and-tuan-2025",
+          "title": "Mai & Tuan 2025",
+          "year": "2025",
+          "coverImage": "/images/wedding-1.jpg",
+          "description": "A romantic wedding collection capturing the beautiful celebration of Mai and Tuan. This series focuses on candid moments and emotional storytelling.",
+          "photos": [
+            {
+              "src": "/images/wedding-1.jpg",
+              "title": "Ceremony",
+              "description": "The emotional highlight of the wedding ceremony",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-detail-1.jpg",
+              "title": "Detail Shot",
+              "description": "Capturing the intricate details that made the day special"
+            },
+            {
+              "src": "/images/wedding-detail-2.jpg",
+              "title": "Rings",
+              "description": "A symbolic close-up of the wedding rings",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-3.jpg",
+              "title": "First Dance",
+              "description": "The magical moment of the couple's first dance",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-4.jpg",
+              "title": "Reception",
+              "description": "The joyful celebration with friends and family"
+            }
+          ]
+        },
+        {
+          "id": "linh-and-minh",
+          "title": "Linh & Minh",
+          "year": "2025",
+          "coverImage": "/images/wedding-2.jpg",
+          "description": "An elegant wedding collection documenting Linh and Minh's special day. This series emphasizes timeless elegance and genuine emotion.",
+          "photos": [
+            {
+              "src": "/images/wedding-2.jpg",
+              "title": "Ceremony",
+              "description": "The heartfelt moment of exchanging vows",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-detail-3.jpg",
+              "title": "Detail Shot",
+              "description": "The beautiful details that made the wedding unique",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-5.jpg",
+              "title": "First Dance",
+              "description": "A romantic moment on the dance floor",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-6.jpg",
+              "title": "Reception",
+              "description": "The joyful celebration with loved ones"
+            }
+          ]
+        },
+        {
+          "id": "thu-and-hai",
+          "title": "Thu & Hai",
+          "year": "2025",
+          "coverImage": "/images/wedding-3.jpg",
+          "description": "A contemporary wedding collection showcasing Thu and Hai's modern celebration. This series blends traditional elements with contemporary style.",
+          "photos": [
+            {
+              "src": "/images/wedding-3.jpg",
+              "title": "Main Photo",
+              "description": "The defining moment of Thu and Hai's wedding day",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-1.jpg",
+              "title": "Traditional Ceremony",
+              "description": "Honoring cultural traditions during the ceremony",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-1.jpg",
+              "title": "Modern Details",
+              "description": "Contemporary elements that made the wedding unique",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-4.jpg",
+              "title": "Celebration",
+              "description": "The joyful reception with friends and family"
+            }
+          ]
+        },
+        {
+          "id": "hong-and-nam",
+          "title": "Hong & Nam",
+          "year": "2024",
+          "coverImage": "/images/wedding-4.jpg",
+          "description": "A destination wedding collection capturing Hong and Nam's celebration in a scenic location. This series emphasizes the beautiful natural surroundings.",
+          "photos": [
+            {
+              "src": "/images/wedding-4.jpg",
+              "title": "Main Photo",
+              "description": "The breathtaking setting of Hong and Nam's wedding",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-2.jpg",
+              "title": "Scenic Ceremony",
+              "description": "The wedding ceremony against a stunning backdrop",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-2.jpg",
+              "title": "Natural Elements",
+              "description": "Incorporating the natural beauty into wedding details",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-5.jpg",
+              "title": "Sunset Celebration",
+              "description": "The magical golden hour reception"
+            }
+          ]
+        },
+        {
+          "id": "lan-and-vinh",
+          "title": "Lan & Vinh",
+          "year": "2024",
+          "coverImage": "/images/wedding-5.jpg",
+          "description": "An intimate wedding collection documenting Lan and Vinh's small but meaningful celebration. This series focuses on close relationships and personal moments.",
+          "photos": [
+            {
+              "src": "/images/wedding-5.jpg",
+              "title": "Main Photo",
+              "description": "The intimate atmosphere of Lan and Vinh's wedding",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-3.jpg",
+              "title": "Close Circle",
+              "description": "Celebrating with their closest friends and family",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-3.jpg",
+              "title": "Personal Touches",
+              "description": "The meaningful details that made the day special",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-6.jpg",
+              "title": "Candid Moments",
+              "description": "Genuine emotions captured throughout the day"
+            }
+          ]
+        },
+        {
+          "id": "huong-and-duc",
+          "title": "Huong & Duc",
+          "year": "2024",
+          "coverImage": "/images/wedding-6.jpg",
+          "description": "A traditional wedding collection showcasing Huong and Duc's cultural celebration. This series honors heritage while capturing contemporary moments.",
+          "photos": [
+            {
+              "src": "/images/wedding-6.jpg",
+              "title": "Main Photo",
+              "description": "The traditional elements of Huong and Duc's wedding",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-4.jpg",
+              "title": "Cultural Ceremony",
+              "description": "Honoring ancestral traditions during the ceremony",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-1.jpg",
+              "title": "Heritage Details",
+              "description": "The symbolic elements incorporated into the wedding",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-1.jpg",
+              "title": "Modern Celebration",
+              "description": "Blending tradition with contemporary celebration"
+            }
+          ]
+        },
+        {
+          "id": "autumn-wedding-2024",
+          "title": "Autumn Wedding 2024",
+          "year": "2024",
+          "coverImage": "/images/wedding-3.jpg",
+          "description": "A seasonal wedding collection capturing the rich colors and atmosphere of fall. This series embraces the warm tones and cozy ambiance of autumn.",
+          "photos": [
+            {
+              "src": "/images/wedding-3.jpg",
+              "title": "Fall Ceremony",
+              "description": "A wedding ceremony surrounded by autumn colors",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-5.jpg",
+              "title": "Seasonal Details",
+              "description": "Incorporating fall elements into the wedding design",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-2.jpg",
+              "title": "Autumn Palette",
+              "description": "The warm color scheme that defined the celebration",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-1.jpg",
+              "title": "Golden Hour",
+              "description": "Taking advantage of the beautiful autumn light"
+            }
+          ]
+        },
+        {
+          "id": "beachside-vows-2024",
+          "title": "Beachside Vows 2024",
+          "year": "2024",
+          "coverImage": "/images/wedding-2.jpg",
+          "description": "A coastal wedding collection documenting a beautiful beach ceremony. This series captures the relaxed elegance of oceanside celebrations.",
+          "photos": [
+            {
+              "src": "/images/wedding-2.jpg",
+              "title": "Beach Ceremony",
+              "description": "Exchanging vows with the ocean as a backdrop",
+              "span": "both"
+            },
+            {
+              "src": "/images/wedding-4.jpg",
+              "title": "Coastal Celebration",
+              "description": "The relaxed atmosphere of a beach wedding",
+              "span": "row"
+            },
+            {
+              "src": "/images/wedding-detail-3.jpg",
+              "title": "Seaside Details",
+              "description": "Nautical elements incorporated into the wedding design",
+              "span": "col"
+            },
+            {
+              "src": "/images/wedding-6.jpg",
+              "title": "Sunset Reception",
+              "description": "Celebrating as the sun sets over the ocean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "title": "FASHION",
+      "projects": [
+        {
+          "id": "summer-collection-2025",
+          "title": "Summer Collection 2025",
+          "year": "2025",
+          "coverImage": "/images/fashion-1.jpg",
+          "description": "A vibrant fashion series showcasing the latest summer trends. This collection emphasizes bright colors, flowing fabrics, and natural settings.",
+          "photos": [
+            {
+              "src": "/images/fashion-1.jpg",
+              "title": "Summer Vibes",
+              "description": "The signature piece from the summer collection",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-detail-1.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up of the intricate fabric and texture"
+            },
+            {
+              "src": "/images/fashion-detail-2.jpg",
+              "title": "Accessories",
+              "description": "The complementary accessories that complete the look",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-3.jpg",
+              "title": "Casual Look",
+              "description": "Effortless summer style for everyday wear",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-4.jpg",
+              "title": "Evening Wear",
+              "description": "Elegant summer options for special occasions"
+            }
+          ]
+        },
+        {
+          "id": "urban-style",
+          "title": "Urban Style",
+          "year": "2025",
+          "coverImage": "/images/fashion-2.jpg",
+          "description": "A contemporary fashion series exploring city-inspired looks. This collection showcases edgy designs against urban backdrops.",
+          "photos": [
+            {
+              "src": "/images/fashion-2.jpg",
+              "title": "Street Style",
+              "description": "Fashion that draws inspiration from city life",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-detail-3.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up of the urban-inspired design elements",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-5.jpg",
+              "title": "City Vibes",
+              "description": "Capturing the energy of metropolitan fashion",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-6.jpg",
+              "title": "Night Look",
+              "description": "Urban fashion designed for after-dark adventures"
+            }
+          ]
+        },
+        {
+          "id": "minimalist-2025",
+          "title": "Minimalist 2025",
+          "year": "2025",
+          "coverImage": "/images/fashion-3.jpg",
+          "description": "A clean, understated fashion series celebrating simplicity. This collection focuses on essential pieces with perfect cuts and quality materials.",
+          "photos": [
+            {
+              "src": "/images/fashion-3.jpg",
+              "title": "Main Photo",
+              "description": "The essence of minimalist design philosophy",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-1.jpg",
+              "title": "Clean Lines",
+              "description": "Showcasing the power of simplicity in design",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-1.jpg",
+              "title": "Quality Focus",
+              "description": "Highlighting the importance of materials and craftsmanship",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-5.jpg",
+              "title": "Versatile Pieces",
+              "description": "Essential items designed for maximum versatility"
+            }
+          ]
+        },
+        {
+          "id": "autumn-winter-2024",
+          "title": "Autumn Winter 2024",
+          "year": "2024",
+          "coverImage": "/images/fashion-4.jpg",
+          "description": "A seasonal fashion series showcasing cold-weather styles. This collection features rich textures, layering techniques, and warm color palettes.",
+          "photos": [
+            {
+              "src": "/images/fashion-4.jpg",
+              "title": "Main Photo",
+              "description": "The signature look from the autumn-winter collection",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-2.jpg",
+              "title": "Layered Style",
+              "description": "Demonstrating the art of winter layering",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-2.jpg",
+              "title": "Texture Study",
+              "description": "Exploring the rich textures of winter fabrics",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-6.jpg",
+              "title": "Cold Weather Chic",
+              "description": "Staying stylish while staying warm"
+            }
+          ]
+        },
+        {
+          "id": "street-fashion",
+          "title": "Street Fashion",
+          "year": "2024",
+          "coverImage": "/images/fashion-5.jpg",
+          "description": "An authentic fashion series documenting real-world style. This collection captures everyday fashion with an emphasis on individuality and self-expression.",
+          "photos": [
+            {
+              "src": "/images/fashion-5.jpg",
+              "title": "Main Photo",
+              "description": "Authentic street style captured in its natural environment",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-3.jpg",
+              "title": "Individual Expression",
+              "description": "Celebrating personal style and fashion identity",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-3.jpg",
+              "title": "Authentic Details",
+              "description": "The personal touches that make street style unique",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-1.jpg",
+              "title": "Urban Canvas",
+              "description": "Using the city as a backdrop for fashion expression"
+            }
+          ]
+        },
+        {
+          "id": "editorial-series",
+          "title": "Editorial Series",
+          "year": "2024",
+          "coverImage": "/images/fashion-6.jpg",
+          "description": "A high-concept fashion series created for magazine publication. This collection pushes creative boundaries with dramatic styling and artistic direction.",
+          "photos": [
+            {
+              "src": "/images/fashion-6.jpg",
+              "title": "Main Photo",
+              "description": "The cover image from the editorial fashion spread",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-4.jpg",
+              "title": "Conceptual Fashion",
+              "description": "Pushing the boundaries of conventional fashion photography",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-2.jpg",
+              "title": "Artistic Detail",
+              "description": "Close-up highlighting the editorial styling approach",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-2.jpg",
+              "title": "Narrative Fashion",
+              "description": "Using fashion to tell a compelling visual story"
+            }
+          ]
+        },
+        {
+          "id": "sustainable-fashion-2024",
+          "title": "Sustainable Fashion 2024",
+          "year": "2024",
+          "coverImage": "/images/fashion-3.jpg",
+          "description": "An eco-conscious fashion series highlighting sustainable brands and practices. This collection showcases ethical fashion with environmental awareness.",
+          "photos": [
+            {
+              "src": "/images/fashion-3.jpg",
+              "title": "Eco Chic",
+              "description": "Stylish fashion with environmental consciousness",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-5.jpg",
+              "title": "Sustainable Materials",
+              "description": "Showcasing fashion made from eco-friendly fabrics",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-1.jpg",
+              "title": "Ethical Details",
+              "description": "Close-up of sustainable production techniques",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-1.jpg",
+              "title": "Green Fashion",
+              "description": "Style that doesn't compromise on environmental values"
+            }
+          ]
+        },
+        {
+          "id": "avant-garde-2024",
+          "title": "Avant-Garde 2024",
+          "year": "2024",
+          "coverImage": "/images/fashion-6.jpg",
+          "description": "An experimental fashion series pushing the boundaries of conventional design. This collection showcases innovative silhouettes and unconventional materials.",
+          "photos": [
+            {
+              "src": "/images/fashion-6.jpg",
+              "title": "Boundary Pushing",
+              "description": "Fashion that challenges traditional design concepts",
+              "span": "both"
+            },
+            {
+              "src": "/images/fashion-2.jpg",
+              "title": "Innovative Forms",
+              "description": "Exploring new silhouettes and structural elements",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-3.jpg",
+              "title": "Material Exploration",
+              "description": "Using unconventional materials in fashion design",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-4.jpg",
+              "title": "Artistic Expression",
+              "description": "Fashion as a medium for conceptual art"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hmmm",
+      "title": "HMMM",
+      "projects": [
+        {
+          "id": "abstract-series",
+          "title": "Abstract Series",
+          "year": "2025",
+          "coverImage": "/images/hmmm-1.jpg",
+          "description": "An experimental photography series exploring form, color, and composition. This collection challenges perceptions and invites viewers to find their own meaning.",
+          "photos": [
+            {
+              "src": "/images/hmmm-1.jpg",
+              "title": "Composition #1",
+              "description": "An exploration of geometric forms and negative space",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-detail-1.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up revealing the intricate textures and patterns"
+            },
+            {
+              "src": "/images/hmmm-detail-2.jpg",
+              "title": "Pattern Study",
+              "description": "Investigating the visual rhythm of repeating elements",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-3.jpg",
+              "title": "Color Field",
+              "description": "Exploring the emotional impact of color relationships",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-4.jpg",
+              "title": "Geometric Forms",
+              "description": "The interplay of shapes creating visual tension"
+            }
+          ]
+        },
+        {
+          "id": "experimental",
+          "title": "Experimental",
+          "year": "2025",
+          "coverImage": "/images/hmmm-2.jpg",
+          "description": "A boundary-pushing photography series using unconventional techniques. This collection embraces chance, process, and discovery.",
+          "photos": [
+            {
+              "src": "/images/hmmm-2.jpg",
+              "title": "Light Study",
+              "description": "Experimenting with unconventional lighting techniques",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-detail-3.jpg",
+              "title": "Detail Shot",
+              "description": "Close-up revealing the results of experimental processes",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-5.jpg",
+              "title": "Motion Blur",
+              "description": "Using camera movement to create abstract imagery",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-6.jpg",
+              "title": "Double Exposure",
+              "description": "Layering multiple images to create new visual relationships"
+            }
+          ]
+        },
+        {
+          "id": "conceptual-art",
+          "title": "Conceptual Art",
+          "year": "2025",
+          "coverImage": "/images/hmmm-3.jpg",
+          "description": "An idea-driven photography series where concept takes precedence over traditional aesthetics. This collection explores philosophical and social themes.",
+          "photos": [
+            {
+              "src": "/images/hmmm-3.jpg",
+              "title": "Main Photo",
+              "description": "A visual metaphor exploring contemporary social issues",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-1.jpg",
+              "title": "Philosophical Inquiry",
+              "description": "Using imagery to pose questions about existence",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-1.jpg",
+              "title": "Symbolic Elements",
+              "description": "Close-up of objects chosen for their conceptual significance",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-5.jpg",
+              "title": "Social Commentary",
+              "description": "Visual exploration of cultural phenomena"
+            }
+          ]
+        },
+        {
+          "id": "shadows-and-light",
+          "title": "Shadows & Light",
+          "year": "2024",
+          "coverImage": "/images/hmmm-4.jpg",
+          "description": "A dramatic photography series exploring the interplay between illumination and darkness. This collection uses light as both subject and medium.",
+          "photos": [
+            {
+              "src": "/images/hmmm-4.jpg",
+              "title": "Main Photo",
+              "description": "The dramatic contrast between light and shadow",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-2.jpg",
+              "title": "Light Architecture",
+              "description": "Using light to create and define spatial relationships",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-2.jpg",
+              "title": "Shadow Play",
+              "description": "Exploring the sculptural qualities of shadows",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-6.jpg",
+              "title": "Illuminated Forms",
+              "description": "Revealing shape and texture through strategic lighting"
+            }
+          ]
+        },
+        {
+          "id": "visual-poetry",
+          "title": "Visual Poetry",
+          "year": "2024",
+          "coverImage": "/images/hmmm-5.jpg",
+          "description": "A lyrical photography series creating visual equivalents to poetic expression. This collection emphasizes mood, metaphor, and emotional resonance.",
+          "photos": [
+            {
+              "src": "/images/hmmm-5.jpg",
+              "title": "Main Photo",
+              "description": "A visual metaphor evoking emotional response",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-3.jpg",
+              "title": "Lyrical Composition",
+              "description": "Using visual rhythm and flow to create poetic imagery",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-3.jpg",
+              "title": "Evocative Detail",
+              "description": "Close-up highlighting elements with symbolic significance",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-1.jpg",
+              "title": "Visual Metaphor",
+              "description": "Creating imagery that speaks beyond literal representation"
+            }
+          ]
+        },
+        {
+          "id": "dream-sequence",
+          "title": "Dream Sequence",
+          "year": "2024",
+          "coverImage": "/images/hmmm-6.jpg",
+          "description": "A surreal photography series inspired by the logic and imagery of dreams. This collection blurs the line between reality and imagination.",
+          "photos": [
+            {
+              "src": "/images/hmmm-6.jpg",
+              "title": "Main Photo",
+              "description": "Capturing the surreal quality of dream imagery",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-4.jpg",
+              "title": "Subconscious Landscape",
+              "description": "Creating environments that exist beyond physical reality",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-1.jpg",
+              "title": "Dream Logic",
+              "description": "Visual elements that follow the associative logic of dreams",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-2.jpg",
+              "title": "Liminal Space",
+              "description": "Exploring the threshold between conscious and unconscious"
+            }
+          ]
+        },
+        {
+          "id": "time-lapse-2024",
+          "title": "Time Lapse 2024",
+          "year": "2024",
+          "coverImage": "/images/hmmm-3.jpg",
+          "description": "A temporal photography series exploring the passage of time. This collection uses multiple exposure techniques to visualize time's movement.",
+          "photos": [
+            {
+              "src": "/images/hmmm-3.jpg",
+              "title": "Temporal Flow",
+              "description": "Visualizing the continuous movement of time",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-5.jpg",
+              "title": "Moment Stacking",
+              "description": "Compressing multiple moments into a single image",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-2.jpg",
+              "title": "Duration Study",
+              "description": "Exploring how time transforms visual elements",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-1.jpg",
+              "title": "Temporal Layers",
+              "description": "Building visual depth through accumulated time"
+            }
+          ]
+        },
+        {
+          "id": "micro-cosmos-2024",
+          "title": "Micro Cosmos 2024",
+          "year": "2024",
+          "coverImage": "/images/hmmm-4.jpg",
+          "description": "A macro photography series revealing the hidden world of small-scale subjects. This collection finds beauty and complexity in the overlooked details of everyday life.",
+          "photos": [
+            {
+              "src": "/images/hmmm-4.jpg",
+              "title": "Hidden World",
+              "description": "Revealing the unseen beauty of microscopic subjects",
+              "span": "both"
+            },
+            {
+              "src": "/images/hmmm-6.jpg",
+              "title": "Scale Shift",
+              "description": "Transforming tiny subjects into monumental imagery",
+              "span": "row"
+            },
+            {
+              "src": "/images/hmmm-detail-3.jpg",
+              "title": "Texture Study",
+              "description": "Exploring the intricate surfaces invisible to the naked eye",
+              "span": "col"
+            },
+            {
+              "src": "/images/hmmm-2.jpg",
+              "title": "Micro Landscape",
+              "description": "Finding entire worlds within the smallest subjects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "title": "COMMERCIAL",
+      "projects": [
+        {
+          "id": "brand-campaign-2025",
+          "title": "Brand Campaign 2025",
+          "year": "2025",
+          "coverImage": "/images/commercial-1.jpg",
+          "description": "A sophisticated commercial photography series for a luxury brand. This collection emphasizes premium quality and aspirational lifestyle.",
+          "photos": [
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Brand Identity",
+              "description": "Capturing the essence of the brand's visual identity",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "Lifestyle Context",
+              "description": "Showing products in aspirational settings",
+              "span": "row"
+            },
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Product Focus",
+              "description": "Highlighting key products with artistic presentation",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-detail-1.jpg",
+              "title": "Detail Study",
+              "description": "Close-up emphasizing craftsmanship and quality"
+            }
+          ]
+        },
+        {
+          "id": "product-series",
+          "title": "Product Series",
+          "year": "2025",
+          "coverImage": "/images/commercial-2.jpg",
+          "description": "A clean, precise product photography series showcasing items with technical excellence. This collection emphasizes clarity, detail, and perfect lighting.",
+          "photos": [
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "Product Showcase",
+              "description": "Technical perfection in product presentation",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Contextual Setting",
+              "description": "Showing products in their intended environment",
+              "span": "row"
+            },
+            {
+              "src": "/images/fashion-detail-2.jpg",
+              "title": "Feature Highlight",
+              "description": "Close-up emphasizing key product features",
+              "span": "col"
+            },
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Product Range",
+              "description": "Showcasing product variety with consistent styling"
+            }
+          ]
+        },
+        {
+          "id": "lifestyle-collection",
+          "title": "Lifestyle Collection",
+          "year": "2025",
+          "coverImage": "/images/commercial-3.jpg",
+          "description": "An authentic commercial photography series showing products in real-life contexts. This collection emphasizes relatable scenarios and genuine moments.",
+          "photos": [
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Authentic Moments",
+              "description": "Products integrated into natural lifestyle settings",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Daily Integration",
+              "description": "Showing how products enhance everyday life",
+              "span": "row"
+            },
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "User Experience",
+              "description": "Focusing on the relationship between people and products",
+              "span": "col"
+            },
+            {
+              "src": "/images/fashion-detail-3.jpg",
+              "title": "Detail in Context",
+              "description": "Close-up showing products in actual use"
+            }
+          ]
+        },
+        {
+          "id": "corporate-identity-2024",
+          "title": "Corporate Identity 2024",
+          "year": "2024",
+          "coverImage": "/images/commercial-1.jpg",
+          "description": "A professional photography series for corporate branding. This collection creates a cohesive visual identity for business communications.",
+          "photos": [
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Corporate Portrait",
+              "description": "Professional imagery for company leadership",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Workplace Culture",
+              "description": "Authentic moments capturing company values",
+              "span": "row"
+            },
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "Brand Environment",
+              "description": "Physical spaces that reflect corporate identity",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-1.jpg",
+              "title": "Detail Focus",
+              "description": "Close-up of branded elements and materials"
+            }
+          ]
+        },
+        {
+          "id": "food-photography-2024",
+          "title": "Food Photography 2024",
+          "year": "2024",
+          "coverImage": "/images/commercial-2.jpg",
+          "description": "A mouthwatering commercial series showcasing culinary creations. This collection emphasizes texture, color, and appetizing presentation.",
+          "photos": [
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "Culinary Showcase",
+              "description": "Highlighting the visual appeal of prepared dishes",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Ingredient Study",
+              "description": "Celebrating the raw materials of culinary creation",
+              "span": "row"
+            },
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Dining Experience",
+              "description": "Capturing the full context of food enjoyment",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-2.jpg",
+              "title": "Texture Detail",
+              "description": "Close-up emphasizing the sensory qualities of food"
+            }
+          ]
+        },
+        {
+          "id": "real-estate-portfolio-2024",
+          "title": "Real Estate Portfolio 2024",
+          "year": "2024",
+          "coverImage": "/images/commercial-3.jpg",
+          "description": "An architectural photography series showcasing properties with technical excellence. This collection emphasizes space, light, and architectural features.",
+          "photos": [
+            {
+              "src": "/images/commercial-3.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/commercial-1.jpg",
+              "title": "Interior Spaces",
+              "description": "Capturing the flow and functionality of living areas",
+              "span": "row"
+            },
+            {
+              "src": "/images/commercial-2.jpg",
+              "title": "Feature Highlight",
+              "description": "Emphasizing unique selling points of the property",
+              "span": "col"
+            },
+            {
+              "src": "/images/portrait-detail-3.jpg",
+              "title": "Detail Study",
+              "description": "Close-up of distinctive architectural elements"
+            }
+          ]
+        },
+        {
+          "id": "linh-2024",
+          "title": "Linh 2025",
+          "year": "2025",
+          "coverImage": "/linh-2025/img1.jpg",
+          "description": "hello 123 123",
+          "photos": [
+            {
+              "src": "/images/img2.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img2.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img2.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img3.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img4.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img5.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img6.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img7.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img8.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            },
+            {
+              "src": "/images/img10.jpg",
+              "title": "Exterior Showcase",
+              "description": "Highlighting architectural design and curb appeal",
+              "span": "both"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

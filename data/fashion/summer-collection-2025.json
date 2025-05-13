@@ -1,0 +1,37 @@
+{
+  "id": "summer-collection-2025",
+  "title": "Summer Collection 2025",
+  "year": "2025",
+  "coverImage": "/images/fashion-1.jpg",
+  "description": "A vibrant fashion series celebrating the colors and textures of summer. This collection highlights contemporary silhouettes and playful styling.",
+  "photos": [
+    {
+      "src": "/images/fashion-1.jpg",
+      "title": "Summer Bloom",
+      "description": "The signature image from the Summer Collection, showcasing vibrant colors and textures",
+      "span": "both"
+    },
+    {
+      "src": "/images/fashion-detail-1.jpg",
+      "title": "Detail Shot",
+      "description": "Close-up highlighting intricate fabric details and craftsmanship",
+      "span": "row"
+    },
+    {
+      "src": "/images/fashion-2.jpg",
+      "title": "Urban Summer",
+      "description": "A street-style inspired look that combines casual and formal elements",
+      "span": "col"
+    },
+    {
+      "src": "/images/fashion-3.jpg",
+      "title": "Beach Ready",
+      "description": "A relaxed summer look perfect for beachside evenings"
+    },
+    {
+      "src": "/images/fashion-4.jpg",
+      "title": "Summer Night",
+      "description": "An elegant evening look from the summer collection"
+    }
+  ]
+} 

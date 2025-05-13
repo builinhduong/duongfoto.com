@@ -1,0 +1,32 @@
+{
+  "id": "ching-ph",
+  "title": "CHING PH",
+  "year": "2025",
+  "coverImage": "/images/portrait-2.jpg",
+  "description": "A minimalist portrait series focusing on clean lines and subtle expressions. This collection emphasizes the beauty of simplicity and understated elegance.",
+  "photos": [
+    {
+      "src": "/images/portrait-2.jpg",
+      "title": "Main Portrait",
+      "description": "The defining image of the CHING PH series, showcasing minimalist aesthetics",
+      "span": "both"
+    },
+    {
+      "src": "/images/portrait-detail-3.jpg",
+      "title": "Detail Shot",
+      "description": "Exploring the fine details that make each subject unique",
+      "span": "row"
+    },
+    {
+      "src": "/images/portrait-5.jpg",
+      "title": "Complementary Shot",
+      "description": "A supporting portrait that enhances the narrative",
+      "span": "col"
+    },
+    {
+      "src": "/images/portrait-6.jpg",
+      "title": "Expression Study",
+      "description": "Capturing the subtle interplay of light and shadow on the face"
+    }
+  ]
+} 
