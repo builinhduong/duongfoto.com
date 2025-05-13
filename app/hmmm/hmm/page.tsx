@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 export default function HmmPage() {
-  // Đọc danh sách các dự án từ thư mục data/hmm (ngoại trừ file index.json)
-  const projectsDirectory = path.join(process.cwd(), "data/hmm");
+  // Đọc danh sách các dự án từ thư mục data/hmmm (ngoại trừ file index.json)
+  const projectsDirectory = path.join(process.cwd(), "data/hmmm");
   const fileNames = fs.readdirSync(projectsDirectory).filter(fileName => 
     fileName !== "index.json" && fileName.endsWith(".json")
   );
@@ -30,7 +30,7 @@ export default function HmmPage() {
         {projects.map((project) => (
           <Link
             key={project.id}
-            href={`/hmm/${project.id}`}
+            href={`/hmmm/hmm/${project.id}`}
             className="group overflow-hidden rounded-md"
           >
             <div className="relative aspect-[4/5] overflow-hidden">

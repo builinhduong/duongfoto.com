@@ -16,7 +16,7 @@ type ProjectPageProps = {
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
   const { projectId } = params;
   
-  const projectPath = path.join(process.cwd(), `data/hmm/${projectId}.json`);
+  const projectPath = path.join(process.cwd(), `data/hmmm/${projectId}.json`);
   const projectData = JSON.parse(fs.readFileSync(projectPath, "utf8"));
   
   return {
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 export default function ProjectPage({ params }: ProjectPageProps) {
   const { projectId } = params;
   
-  const projectPath = path.join(process.cwd(), `data/hmm/${projectId}.json`);
+  const projectPath = path.join(process.cwd(), `data/hmmm/${projectId}.json`);
   const project = JSON.parse(fs.readFileSync(projectPath, "utf8"));
   
   // Chuẩn bị dữ liệu cho component BentoImageGallery
